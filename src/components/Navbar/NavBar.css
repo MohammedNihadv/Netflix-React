@@ -1,0 +1,52 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+}
+
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+
+.signup{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+    background: rgba(255, 0, 0, 0.84);
+	border-radius: .3rem;
+	font-size: 0.9rem;
+	min-width: 5.5rem;
+	padding: .5rem 1rem;
+    border: none;
+}
+
+.login{
+    position: fixed;
+    right: 115px;
+    width: 30px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgba(112, 121, 121, 0);
+	border-radius: .3rem;
+	font-size: 0.9rem;
+	min-width: 5.5rem;
+	padding: .5rem 1rem;
+    border: none;
+}
